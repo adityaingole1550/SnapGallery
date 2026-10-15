@@ -12,9 +12,11 @@ const Try = (e) => {
     const getImages = ()=>{
         
       return e.Data.map((e)=>(
-      <div 
-      className='h-35 w-43 lg:h-35 lg:w-42 xl:h-60 xl:w-74 overflow-hidden'
-      ><img className="w-full h-full object-cover" src={e.download_url} alt={e.author} loading="eager"/>
+      <div className='h-35 w-43 lg:h-35 lg:w-42 xl:h-60 xl:w-74 overflow-hidden'>
+        <img className="w-full h-full object-cover" 
+          src={e.download_url} 
+          alt={e.author}
+        />
       </div>
       ));  
     };

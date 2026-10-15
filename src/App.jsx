@@ -7,7 +7,7 @@ import Div3 from './components/Div3';
 
 const App = () => {
   const [isOn, setIsOn] = useState(false);
-  const [Page, setPage] = useState(2)
+  const [Page, setPage] = useState(1)
   const [Data, setData] = useState([]) 
   return (
     <div className={`min-h-screen w-full ${isOn ?"bg-[#08101d]":"bg-white"} pb-4`}>

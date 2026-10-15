@@ -14,7 +14,7 @@ const Div3 = (e) => {
   const [Active, setActive] = useState("B1")
 
   useEffect(()=>{
-    e.setPage(e.Page+1);
+    e.setPage((Active == "B1")?B1:((Active == "B2")?B2:((Active == "B3")?B3:((Active == "B4")?B4:((Active == "B5")?B5:((Active == "B6")?B6:((Active == "B7")?B7:"")))))));
     e.setData([])
   },[Active])
 
