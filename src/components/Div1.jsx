@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const DIv1 = (e) => {
+const Div1 = (e) => {
   return (
     <div className='px-4 py-[4vh] flex items-center justify-between b-amber-500 h-[6vw] xl:h-[3vw]'>
       <div className=' flex items-center justify-center gap-1'>
@@ -19,4 +19,4 @@ const DIv1 = (e) => {
   )
 }
 
-export default DIv1
+export default Div1
