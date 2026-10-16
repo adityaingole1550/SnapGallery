@@ -6,8 +6,6 @@ A responsive image gallery built with **React**, **Tailwind CSS**, and the **Lor
 
 **[View SnapGallery](https://snap-gallery-phi.vercel.app/)**
 
-> Before publishing this README, replace `PASTE_YOUR_VERCEL_DEPLOYMENT_URL_HERE` with your actual Vercel deployment URL, for example `https://your-project.vercel.app`.
-
 ## ✨ Features
 
 - **API-powered gallery:** Fetches image metadata from the Lorem Picsum API using Axios.
